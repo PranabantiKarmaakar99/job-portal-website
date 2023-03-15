@@ -1,0 +1,224 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: Roboto,sans-serif;
+
+}
+
+.navbar {
+    height:80px;
+    background-color:rgb(255, 255, 255);
+}
+
+.JovianLogo{
+    padding:10px 0;
+    height:60px;
+
+
+}
+
+.banner {
+    width:100%;
+    object-fit: cover;
+   
+}
+
+h1 h2 h3 p {
+   
+   
+
+}
+
+.About{
+
+    max-width: 800px;
+    margin: 0 auto;
+    display:flex;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+    margin-bottom: 100px;
+    padding:20px;
+    
+}
+
+.Job-section{
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding:20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+
+
+h1 {
+
+text-align: center;
+margin-top: 50px;
+margin-bottom: 50px;
+
+
+}
+
+h2{
+
+    text-align: center;
+    
+ }
+
+ .Job-content {
+
+     /* border:1px solid #525252; */
+     width:100%;
+     /* border-collapse: collapse; */
+      box-shadow: 24px 20px 12px -5px rgba(120,120,113,0.2);
+     
+ }
+
+
+
+
+ .jobs-header-row th {
+
+    /* border:1px solid #525252; */
+    background-color:#F0F9FF ;
+    box-shadow: none;
+    padding:8px;
+    text-align: left;
+    
+   
+
+
+ }
+
+ .Job-items td {
+
+    
+   padding:8px;
+
+
+ }
+
+ .Job-content tr:nth-child(odd)
+ {
+
+    background-color:#F0F9FF ;
+
+ }
+
+
+ /* application */
+ 
+
+.application{
+
+    max-width: 800px;
+    margin: 0 auto;
+    padding:20px;
+    /* margin-left: 20px;
+    margin-right: 20px; */
+}
+ 
+.application-form {
+
+    padding:10px;
+
+
+}
+
+.form-group {
+  
+    margin: 16px 0;
+
+}
+
+
+.form-group input,select,textarea{
+
+    width:40%;
+    padding: 8px 0;
+    margin-top: 8px;
+    font-family:  Roboto,sans-serif;
+}
+
+.form-group label{
+
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.form-group input[type="checkbox"]{
+
+    width:16px;
+    height:16px;
+    min-width:0;
+}
+
+
+.form-group input[type="submit"]{
+    background-color: #93C5FD;
+    /* padding:1rem; */
+    width:15%;
+    height:45px;
+    min-width:0;
+    border-radius:5px;
+    font-size:16px;
+    font-weight: bold;
+    border:none;
+    box-shadow: 5px 5px 5px -2px rgba(120,120,113,0.2);
+}
+
+.form-group input[type="submit"]:hover {
+   cursor: pointer;
+   background-color: #3B82F6;
+   color:antiquewhite;
+   transition: ease-in ;
+
+}
+
+
+
+
+    .footer {
+
+        background-color: ghostwhite;
+        /* height: 50px; */
+        margin-top:50px;
+       
+    }
+
+    .footer p {
+
+        text-align: center;
+        padding: 20px 0 32px; 
+    }
+
+    a{
+        text-decoration: none;
+        
+    }
+
+  
+
+   .footer ul{
+
+        list-style: none;
+        text-align:center;
+        padding : 20px 
+       
+        
+         
+
+    }
+
+    .footer li{
+
+        
+        margin:0 16px ;
+        display: inline;
+         
+
+    }
+
+
+
