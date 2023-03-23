@@ -1,4 +1,444 @@
-body {
+
+/* xs mobile-friendly */
+
+
+    html{
+
+        font-size:14px;
+        margin:0;
+        padding:0;
+
+    }
+
+    body{
+        margin:0;
+        padding:0;
+        font-family: Roboto,sans-serif;
+        font-size:1rem;
+
+
+    }
+
+    .navbar {
+        height:60px;
+        background-color:rgb(255, 255, 255);
+    }
+
+    .JovianLogo{
+       display:none;
+    
+    
+    }
+
+    .JovianLogo-onlyicon{
+        padding:10px 0;
+        height:40px;
+    
+    
+    }
+
+    .banner {
+        width:100%;
+        object-fit: cover;
+        height: 200px;
+       
+    }
+
+    h1,h2,h3 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 600;
+        color:#222222;
+     
+     }
+
+     h1{font-size:2.5rem; text-align:center;margin:0;margin-top:10px}
+     h2{font-size:2rem; text-align:center}
+     h3{font-size:1.75rem}
+     h5{font-size:1.25rem}
+    
+
+.About{
+
+    max-width: 500px;
+    margin: 0 auto;
+    display:flex;
+    flex-direction: column;
+   
+    margin-bottom: 50px;
+    padding:10px;
+   
+
+    
+}
+
+
+
+a {
+    text-decoration: none;
+    color: #3B82F6;
+  }
+  
+  a:hover, a:focus {
+    color: #1D4ED8;
+  }
+
+    
+.team-image{
+    object-fit: cover;
+    /* height:200px; */
+    width:100%;
+}
+
+.Job-section{
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding:20px;
+ 
+}
+
+.item {
+    border: 1px solid grey;
+    padding: 10px;
+    margin:10px;
+}
+
+.Job-content{
+    display: none;
+}
+
+.application{
+
+    max-width: 500px;
+    margin: 0 auto;
+    padding:20px;
+    
+}
+ 
+.application-form {
+
+    padding:10px;
+
+
+}
+
+.form-group {
+  
+    margin: 16px 0;
+
+}
+
+
+.form-group input,select,textarea{
+
+    width:90%;
+    padding: 8px 0;
+    margin-top: 8px;
+    font-family:  Roboto,sans-serif;
+}
+
+.form-group label{
+
+   font-size: 16px;
+   font-weight: 400;
+}
+
+.form-group input[type="checkbox"]{
+
+    width:16px;
+    height:16px;
+    min-width:0;
+}
+
+
+.form-group input[type="submit"]{
+    background-color: #93C5FD;
+   
+    width:50%;
+    height:45px;
+    min-width:0;
+    border-radius:5px;
+    font-size:16px;
+    font-weight: bold;
+    border:none;
+    box-shadow: 5px 5px 5px -2px rgba(120,120,113,0.2);
+}
+
+.form-group input[type="submit"]:hover {
+   cursor: pointer;
+   background-color: #3B82F6;
+   color:antiquewhite;
+   transition: ease-in ;
+
+}
+
+
+
+.footer {
+
+    background-color: ghostwhite;
+    margin:0;
+    
+    margin-top:50px;
+    padding: 0;
+    width:100%;
+
+    position:absolute;
+    /* bottom:0; */
+
+   
+}
+
+.footer p {
+
+    text-align: center;
+    padding: 20px 0 32px; 
+}
+
+a{
+    text-decoration: none;
+    
+}
+
+
+
+.footer ul{
+
+    list-style: none;
+    text-align:center;
+    padding : 20px 
+   
+    
+     
+
+}
+
+.footer li{
+
+    
+    margin:0 16px ;
+    display: inline;
+     
+
+}
+
+
+
+
+/* large-mobile/tablet-friendly */
+
+@media screen and (min-width:576px) {
+
+    html{
+
+        font-size:16px;
+
+    }
+
+    h1 { padding-top: 20px;
+
+    }
+
+    .About{
+
+        max-width: 600px;
+       
+        display:flex;
+        flex-direction:column;
+      
+        
+    }
+
+    .team-image{
+        
+         height:300px; 
+       
+    }
+
+    .Job-section{
+
+        max-width: 600px;
+      
+     
+    }
+   
+
+    .application{
+
+        max-width: 600px;
+    
+        
+    }
+   
+    
+    
+}
+
+/* tablet/laptop-friendly */
+
+@media screen and (min-width:768px) {
+
+    html{
+
+        font-size:18px;
+
+    }
+
+    .JovianLogo{
+        display: block;
+        padding:10px 0;
+        height:60px;
+     
+     
+     }
+ 
+     .JovianLogo-onlyicon{
+        display:none;
+     
+     
+     }
+
+     h1{
+        margin-top: 50px;
+     }
+
+     .About{
+
+        max-width:800px;
+        margin: 0 auto;
+        display:flex;
+        flex-direction:row;
+       
+       margin-top: 30px;
+        margin-bottom:20px;
+        padding:20px;
+        
+    }
+
+    .description{
+        width:50%;
+        padding-right:8px;
+      }
+
+      p {margin:0;
+    padding-left: 10px;
+ 
+padding-bottom: 20px;}
+
+     
+
+     .team{
+      width:50%;
+
+     }
+
+
+
+    .team-image{
+        object-fit: cover;
+        height:240px;
+    }
+
+
+    .Job-section{
+
+        max-width: 800px;
+        margin: 0 auto;
+        padding:20px;
+        padding-top:0;
+     
+    }
+
+    .job-content2{
+        display: none;
+    }
+
+ 
+
+
+ .Job-content {
+
+    display: table;
+
+  
+    width:100%;
+   
+     box-shadow: 24px 20px 12px -5px rgba(120,120,113,0.2);
+    
+}
+
+
+
+
+.jobs-header-row th {
+
+  
+   background-color:#F0F9FF ;
+   box-shadow: none;
+   padding:8px;
+   text-align: left;
+   
+  
+
+
+}
+
+.Job-items td {
+
+   
+  padding:8px;
+
+
+}
+
+.Job-content tr:nth-child(odd)
+{
+
+   background-color:#F0F9FF ;
+
+}
+    
+}
+
+/* large-desktop-friendly */
+
+@media screen and (min-width:992px) {
+
+
+    html{
+
+        font-size:20px;
+
+    }
+
+
+  
+
+     .JovianLogo{
+        display: block;
+        padding:10px 0;
+        height:60px;
+     
+     
+     }
+ 
+     .JovianLogo-onlyicon{
+        display:none;
+     
+     
+     }
+  
+    
+}
+
+
+
+
+
+
+
+
+/* body {
     margin:0;
     padding:0;
     font-family: Roboto,sans-serif;
@@ -42,8 +482,7 @@ h5{font-size:1.25rem}
     max-width: 800px;
     margin: 0 auto;
     display:flex;
-    /* margin-left: 20px;
-    margin-right: 20px; */
+   
     margin-bottom: 100px;
     padding:20px;
     
@@ -54,8 +493,7 @@ h5{font-size:1.25rem}
     max-width: 800px;
     margin: 0 auto;
     padding:20px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
+ 
 }
 
 
@@ -76,9 +514,9 @@ h2{
 
  .Job-content {
 
-     /* border:1px solid #525252; */
+  
      width:100%;
-     /* border-collapse: collapse; */
+    
       box-shadow: 24px 20px 12px -5px rgba(120,120,113,0.2);
      
  }
@@ -88,7 +526,7 @@ h2{
 
  .jobs-header-row th {
 
-    /* border:1px solid #525252; */
+   
     background-color:#F0F9FF ;
     box-shadow: none;
     padding:8px;
@@ -115,7 +553,7 @@ h2{
  }
 
 
- /* application */
+
  
 
 .application{
@@ -123,8 +561,7 @@ h2{
     max-width: 800px;
     margin: 0 auto;
     padding:20px;
-    /* margin-left: 20px;
-    margin-right: 20px; */
+    
 }
  
 .application-form {
@@ -165,7 +602,7 @@ h2{
 
 .form-group input[type="submit"]{
     background-color: #93C5FD;
-    /* padding:1rem; */
+   
     width:15%;
     height:45px;
     min-width:0;
@@ -190,7 +627,7 @@ h2{
     .footer {
 
         background-color: ghostwhite;
-        /* height: 50px; */
+        
         margin-top:50px;
        
     }
@@ -229,4 +666,4 @@ h2{
     }
 
 
-
+ */
